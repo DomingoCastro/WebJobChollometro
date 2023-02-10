@@ -12,11 +12,11 @@ namespace WebJobChollometro.Models
     public class Chollo
     {
         [Key]
-        [Column]
+        [Column("IDCHOLLO")]
         public int IdChollo { get; set; }
         [Column("TITULO")]
         public string Titulo { get; set; }
-        [Column("TITULO")]
+        [Column("LINK")]
         public string Link { get; set; }
         [Column("DESCRIPCION")]
         public string Descripcion { get; set; }
