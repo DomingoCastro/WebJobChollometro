@@ -13,8 +13,4 @@ var provider =
 
 //RECUPERAMOS NUESTRO REPOSITORY UTILIZANDO PROVIDER
 RepositoryChollos repo = provider.GetService<RepositoryChollos>();
-Console.WriteLine("PULSE ENTER PARA INICIAR");
-Console.ReadLine();
 repo.PopulateChollos();
-Console.WriteLine("Proceso completado. Pulse ENTER para finalizar.");
-Console.ReadLine();
